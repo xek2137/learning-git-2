@@ -1,0 +1,52 @@
+$font-text: "Akaya Kanadaka", cursive;
+$font-title: "Roboto Slab", serif;
+
+/* Global */
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0px;
+}
+
+/* POEMS */
+
+.poem {
+    padding: 96px 0;
+}
+.main-box {
+    margin: auto;
+    max-width: 1140px;
+    padding: 0;
+    box-shadow: 15px 11px 41px 5px rgba(0, 0, 0, 0.75);
+    .text-box {
+        text-align: center;
+    }
+}
+
+/* TEXT */
+
+.title {
+    font-family: $font-title;
+    font-weight: 900;
+}
+
+.subtitle {
+    font-family: $font-title;
+    font-weight: 600;
+}
+
+.text {
+    font-family: $font-text;
+    font-weight: 300;
+}

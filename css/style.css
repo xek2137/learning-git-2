@@ -1,0 +1,51 @@
+/* Global */
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0px;
+}
+
+/* POEMS */
+.poem {
+  padding: 96px 0;
+}
+
+.main-box {
+  margin: auto;
+  max-width: 1140px;
+  padding: 0;
+  -webkit-box-shadow: 15px 11px 41px 5px rgba(0, 0, 0, 0.75);
+          box-shadow: 15px 11px 41px 5px rgba(0, 0, 0, 0.75);
+}
+
+.main-box .text-box {
+  text-align: center;
+}
+
+/* TEXT */
+.title {
+  font-family: "Roboto Slab", serif;
+  font-weight: 900;
+}
+
+.subtitle {
+  font-family: "Roboto Slab", serif;
+  font-weight: 600;
+}
+
+.text {
+  font-family: "Akaya Kanadaka", cursive;
+  font-weight: 300;
+}
+/*# sourceMappingURL=style.css.map */
