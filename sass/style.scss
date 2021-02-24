@@ -21,14 +21,16 @@ h6 {
 
 /* POEMS */
 
-.poem {
+.main {
     padding: 96px 0;
+    background-image: url("https://images.pexels.com/photos/220182/pexels-photo-220182.jpeg?cs=srgb&dl=pexels-pixabay-220182.jpg&fm=jpg")
 }
 .main-box {
     margin: auto;
     max-width: 1140px;
     padding: 0;
     box-shadow: 15px 11px 41px 5px rgba(0, 0, 0, 0.75);
+    background-color: antiquewhite;
     .text-box {
         text-align: center;
     }
